@@ -1,0 +1,182 @@
+﻿/* CSS - Visão RH */
+
+@charset "UTF-8";
+
+body{
+	background: #CDBA96;
+	color: #EED8AE;
+	font: 100% Arial Black;
+	text-shadow: 1px 1px #CDBA96;
+}
+
+#container{
+
+	width: 900px;
+	margin: 25px auto;
+	background: #FFFFFF;
+	
+	
+  -webkit-box-shadow: 0px 0px 30px #000; /* Saf3.0+, Chrome */
+     -moz-box-shadow: 0px 0px 30px #000; /* FF3.5 - 3.6 */
+          box-shadow: 0px 0px 30px #000; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+
+
+	/* Cantos superior arredondados */
+	border-top-left-radius: 2em 2em;
+	border-top-right-radius: 2em 2em;
+	
+	/* Cantos inferior arredondados */
+	border-bottom-right-radius: 2em 2em;
+	border-bottom-left-radius:  2em 2em;
+		  
+}
+
+#header{
+	/* Cantos superior arredondados */
+	border-top-left-radius: 2em 2em;
+	border-top-right-radius: 2em 2em;
+}
+#body a,
+#header a{
+	text-decoration: none;
+	font: 100% Arial Black;
+	font-style: italic;
+}
+#header a{
+	color: #FFFFFF;
+	text-shadow: 2px 2px #CDBA96;
+}
+#body a{
+	color: #CDBA96;
+	text-shadow: 2px 2px #EED8AE;
+}
+
+#body ul,
+#header ul{
+	padding: 25px 25px 25px 25px;
+}
+#body ul li,
+#header ul li{
+	list-style-type: none;
+	float: left;
+	margin-right: 2em;
+}
+
+#header ul li a:hover{
+	color: #CDBA96;
+	text-shadow: 2px 2px #FFFFFF;
+}
+#body ul li a:hover{
+	color: #8B7E66;
+	text-shadow: 2px 2px #EED8AE;
+}
+
+#header ul li.selected a{
+	color: #8B7E66;
+	text-shadow: 2px 2px #FFFFFF;
+}
+#body ul li.selected a{
+	color: #8B7E66;
+	text-shadow: 2px 2px #EED8AE;
+}
+
+#header h1{
+	color: #FFFFFF;
+	font: 120% Arial;
+	font-weight: bold;
+	font-style: italic;
+	margin-left: 20px;
+	text-shadow: 2px 2px #CDBA96;
+}
+
+#logo_header,
+#logo_body{
+	padding: 8px 8px 8px 8px;
+	margin-left: 10px;
+}
+
+#logo_index{
+	margin-left: 20px;
+}
+
+#header,
+#footer{
+	background: #EED8AE;
+}
+
+#body{
+
+}
+#box_text{
+	width: 800px;
+	margin: 0 auto;
+}
+
+#footer{
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	font: 100% Arial Black;
+	padding: 6px 6px 6px 6px;
+	text-shadow: 1px 1px #000000;
+	/* Cantos inferior arredondados */
+	border-bottom-right-radius: 2em 2em;
+	border-bottom-left-radius:  2em 2em;
+}
+
+#mensagens,
+#vagas{
+
+	/* Cantos superior arredondados */
+	border-top-left-radius: 2em 2em;
+	border-top-right-radius: 2em 2em;
+	
+	/* Cantos inferior arredondados */
+	border-bottom-right-radius: 2em 2em;
+	border-bottom-left-radius:  2em 2em;
+	
+  -webkit-box-shadow: 0px 0px 30px #EED8AE; /* Saf3.0+, Chrome */
+     -moz-box-shadow: 0px 0px 30px #EED8AE; /* FF3.5 - 3.6 */
+          box-shadow: 0px 0px 30px #EED8AE; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+	color: #8B7E66; 	  
+	padding: 6px 6px 6px 6px;
+}
+#mensagens h2,
+#mensagens p,
+#mensagens small,
+#vagas h2,
+#vagas p,
+#vagas small{
+	margin: 15px;
+	padding: 4px 4px 4px 4px;
+}
+
+/* Tabela */
+#box_text th, 
+#box_text td {
+    border-bottom: 1px solid #ddd;
+}
+#box_text tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+#box_text th {
+    background-color: #EED8AE;
+    color: white;
+}
+
+
+.input_vagas_titulo{
+	width: 20em;
+}
+/* Formularios */
+.input_fale_conosco{
+	width: 36em;
+}
+.input_curriculos{
+	width: 20em;
+}
+
+#excluir{
+	margin: 25px;
+}
