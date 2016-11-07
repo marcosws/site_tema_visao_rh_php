@@ -5,11 +5,15 @@
 	session_start();
 	
 	if((!isset($_SESSION['login'])) && (!isset($_SESSION['senha'])))
+	{
 		header('location:index.html');
+	}
 	else
+	{
 		$id_usuario = $_SESSION['id_usuario'];
 		$nome_usuario = $_SESSION['nome'];
 		$login_nome = $_SESSION['login'];
+	}
 ?>
 <!DOCTYPE html>
 <html>
